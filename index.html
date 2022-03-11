@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="left-card">
+            <div class="logo">
+                <img src="./assets/travel.png" alt="logo">
+                <span class="logo-text">Tall Tale Travels</span>
+            </div>
+            <div class="credit"><span>Photo by <a href="https://unsplash.com/@nixcreative">Tyler Nix</a> on <a
+                        href="https://unsplash.com/">Unsplash</a></span></div>
+        </div>
+        <div class="right-card">
+            <div class="right-card1">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams.</p>
+                <span>Sign up <span id="span1" class="italic">now</span> to get started.</span>
+                <span>You <span class="italic">know</span> you want to.</span>
+            </div>
+            <div class="right-card2">
+                <h1>Let's Do This!</h1>
+                <form id="myform">
+                    <div class="form1" method="post" action="#">
+                        <div>
+                            <label for="name">FIRST NAME</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div>
+                    </div>
+                    <div class="form2">
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="form3">
+                        <div>
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" id="pass" name="pass" required>
+                        </div>
+                        <div>
+                            <label for="conf_pass">CONFIRM PASSWORD</label>
+                            <input type="password" id="conf_pass" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="right-card3">
+                <input type="submit" value="Create Account" form="myform">
+                <div>
+                    <span>Already have an account? <a href="">Log in</a></span>
+                </div>
+                <div class="footer"><span>Copyright © Aram Hekimian Guerrero</span><a href=""><img
+                            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

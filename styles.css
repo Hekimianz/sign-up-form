@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+.main-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.left-card{
+    background-image: url(./assets/tyler-nix-6mze64HRU2Q-unsplash.jpg);
+    background-size: cover;
+    width: 60%;
+    height: 100vh;
+ 
+}
+
+.right-card{
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+   display: flex;
+    background-color: #00000099;
+    height: 15vh;
+    position: relative;
+    top: 20%;
+    align-items: center;
+    justify-content: center;
+    width:100%
+}
+
+.logo img{
+    width: auto;
+    height: 12vh;
+}
+
+.logo-text{
+    color: #86ece6;
+    font-size: 3rem;
+    margin-left: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;}
+
+.credit{
+    color: white;
+    position: relative;
+    top: 900px;
+    text-align: center;
+}
+
+a{
+    color: #FF8401;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 1.1em;
+}
+
+.credit span{
+    background-color: #00000030;
+}
+
+.right-card1{
+    background-color: #F9FAFB;
+    height: 35vh;
+    font-size:1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 70px;
+
+}
+
+.right-card1 p{
+    width: 50vw;
+}
+
+
+
+.right-card1 span:last-of-type{
+    margin-top: 40px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: #064952;
+}
+
+.right-card2{
+    position:relative;
+    height: 30vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 30px 0 0 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-card3{
+    height: 35vh;
+    background-color: #F9FAFB;
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 1.8rem;  
+    color: #064952; 
+}
+
+input, label{
+    display: block;
+}
+
+form{
+    color: #085b66;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    flex-direction: column;
+    
+}
+
+input{
+    margin-left:3px;
+    width: 15vw;
+    font-weight: bold;
+    color: #B35C00;
+    height: 3vh;
+    border-radius: 7px;
+    border: 1px solid #FF840160;
+    font-size: 1.2rem;
+    padding-left:10px;
+}
+
+input:focus{
+    outline: #FF8401 solid 1px;
+}
+
+.form1, .form2, .form3{
+    display: flex;
+    gap: 5vw;
+}
+
+.form2 ,.form3{
+    margin-top: 30px;
+}
+
+input[type="submit"]{
+    background-color:#FF8401;
+    color: #043238;
+    margin-left: 70px;
+    height: 5vh;
+    font-weight:bold;
+    font-size: 1.5rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    
+}
+
+input[type="submit"]:focus{
+outline: none;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;    
+}
+
+.right-card3 div{
+    margin: 10px 0 0 70px;
+    font-size: 1.1rem;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#span1{
+    color:black;
+    font-weight:normal;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    left: 60%;
+    display: flex;
+}
+
+.footer img{
+    width: 1.2em;
+    height: auto;
+    margin-left: 8px;
+}
+
+input:valid{
+    outline: #FF8401 solid 1px;
+
+}
+
+
+
+
+
+
