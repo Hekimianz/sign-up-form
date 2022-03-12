@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="./app.js" defer></script>
 </head>
 
 <body>
@@ -55,17 +56,19 @@
                     <div class="form3">
                         <div>
                             <label for="pass">PASSWORD</label>
-                            <input type="password" id="pass" name="pass" required>
+                            <input class="passwordInput" type="password" id="pass" name="pass" required
+                                oninput="getConfPass()">
                         </div>
                         <div>
                             <label for="conf_pass">CONFIRM PASSWORD</label>
-                            <input type="password" id="conf_pass" required>
+                            <input class="passwordInput" type="password" id="conf_pass" required
+                                oninput="getConfPass()">
                         </div>
                     </div>
                 </form>
             </div>
             <div class="right-card3">
-                <input type="submit" value="Create Account" form="myform">
+                <input type="submit" id="submitBtn" value="Create Account" form="myform">
                 <div>
                     <span>Already have an account? <a href="">Log in</a></span>
                 </div>

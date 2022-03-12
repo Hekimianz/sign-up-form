@@ -198,10 +198,6 @@ input[type="submit"]:hover{
 
 input:valid{
     outline: #FF8401 solid 1px;
-    background-image: url("./assets/green-checkmark.png");
-    background-size: 2vh;
-    background-repeat: no-repeat;
-    background-position: 95%;
 
 }
 
@@ -214,15 +210,6 @@ a:hover{
 }
 
 
-.passwordInput:invalid{
-    background-image: url("./assets/red-x.png");
-    background-size: 2vh;
-    background-repeat: no-repeat;
-    background-position: 95%;
-    
-}
 
-input[type="submit"]:valid{
-background-image: none;
-}
+
 
